@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NammaPlatform</string>
+    <string name="platform_text">Platform: %1$s</string>
+    <string name="station_bengaluru">Station: Bengaluru</string>
+    <string name="platform_default">Platform: &#8212;</string>
+    <string name="speak_kannada">Speak in Kannada</string>
+    <string name="departure_format">%1$s ಗಂಟೆಗೆ ಪ್ರಸ್ಥಾನ</string>
+    <string name="announcement_format">ಮುಂದಿನ ರೈಲು %1$s ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಸಂಖ್ಯೆ %2$s ಗೆ ಬರುತ್ತದೆ %3$s</string>
+    <string name="coaches_label"> ಕೋಚ್‌ಗಳು: %1$s</string>
+    <string name="next_trains">Next Trains</string>
+    <string name="station_selector_title">ನಿಲ್ಲಾನ ಆಯ್ಕೆ - SELECT STATION</string>
+    <string name="train_name_placeholder">Train Name</string>
+    <string name="departure_time_placeholder">Departure Time</string>
+    <string name="coach_name_format">%1$s (%2$s)</string>
+    <string name="position_percent_format">%1$d%%</string>
+    <string name="coach_general">General</string>
+    <string name="coach_s1">S1</string>
+</resources>

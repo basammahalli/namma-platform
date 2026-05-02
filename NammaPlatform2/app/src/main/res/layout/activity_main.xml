@@ -1,0 +1,86 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFF00"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/llStationSelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:orientation="horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/tvStation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/station_bengaluru"
+            android:textSize="20sp"
+            android:textColor="#0000FF"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvTrainNumberMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/train_name_placeholder"
+        android:textSize="18sp"
+        android:textColor="#0000FF"/>
+
+    <TextView
+        android:id="@+id/tvDepartureTimeMain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/departure_time_placeholder"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tvPlatformNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/platform_default"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#0000FF"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvCoaches"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"/>
+
+    <LinearLayout
+        android:id="@+id/llPositionIndicators"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp"/>
+
+    <Button
+        android:id="@+id/btnSpeak"
+        android:text="@string/speak_kannada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:maxWidth="320dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next_trains"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvTrains"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

@@ -1,0 +1,24 @@
+[
+  {
+    "trainNumber": "#16521",
+    "trainName": "ಕಾವೇರಿ ಎಕ್ಸ್‍ರೆಸ್",
+    "platform": "1",
+    "departureTime": "11:23",
+    "coaches": ["Engine", "General", "General", "Ladies", "Sleeper", "AC"]
+  },
+  {
+    "trainNumber": "#56902",
+    "trainName": "ಹಂಪಿ ಪ್ರಯಾಣಿಕ",
+    "platform": "2",
+    "departureTime": "11:50",
+    "coaches": ["Engine", "General", "General", "General", "Ladies", "Sleeper"]
+  },
+  {
+    "trainNumber": "#17306",
+    "trainName": "ಬಸವ ಎಕ್ಸ್‍ರೆಸ್",
+    "platform": "1",
+    "departureTime": "12:25",
+    "coaches": ["Engine", "AC", "Sleeper", "Sleeper", "Ladies", "Guard"]
+  }
+]
+
