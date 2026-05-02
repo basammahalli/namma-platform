@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ನಮ್ಮ ಪ್ಲಾಟ್ಫರ್ಮ್</string>
+    
+    <!-- Login -->
+    <string name="user_login">ಬಳಕೆದಾರ ಲಾಗಿನ್</string>
+    <string name="admin_login">ಆಡ್ಮಿನ್ ಲಾಗಿನ್</string>
+    <string name="email">ಇಮೇಲ್</string>
+    <string name="password">ಪಾಸ್ಸ್ವರ್ಡ್</string>
+    <string name="login">ಲಾಗಿನ್</string>
+    <string name="login_as_admin">ಆಡ್ಮಿನ್ ಆಗಿ ಲಾಗಿನ್ ಮಾಡಿ</string>
+    <string name="back">ಹಿಂದೆ</string>
+    
+    <!-- Profile -->
+    <string name="user_profile">ಬಳಕೆದಾರ ಪ್ರೊಫೈಲ್</string>
+    <string name="full_name">ಸಂಪೂರ್ಣ ಹೆಸರು</string>
+    <string name="phone_number">ಫೋನ್ ನಂಬರ್</string>
+    <string name="address">ವಿಳಾಸ</string>
+    <string name="edit">ಸಂಪಾದಿಸು</string>
+    <string name="save">ಉಳಿಸು</string>
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+    
+    <!-- Settings -->
+    <string name="settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="dark_mode">ಡಾರ್ಕ್ ಮೋಡ್</string>
+    <string name="notifications">ಅಧಿಸೂಚನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+    <string name="language">ಭಾಷೆ</string>
+    <string name="switch_to_kannada">ಕನ್ನಡಕ್ಕೆ ಬದಲಾಯಿಸಿ</string>
+    <string name="switch_to_english">ಇಂಗ್ಲಿಷ್‌ನಿಗೆ ಬದಲಾಯಿಸಿ</string>
+    <string name="save_settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳನ್ನು ಉಳಿಸಿ</string>
+    
+    <!-- Admin -->
+    <string name="welcome_admin">ಸ್ವಾಗತ, ಆಡ್ಮಿನ್</string>
+    <string name="admin_dashboard">ಆಡ್ಮಿನ್ ಡ್ಯಾಶ್ಬೋರ್ಡ್</string>
+    <string name="manage_users">ಬಳಕೆದಾರರನ್ನು ನಿರ್ವಹಿಸಿ</string>
+    <string name="view_reports">ವರದಿಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
+    <string name="admin_settings">ಆಡ್ಮಿನ್ ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="logout">ಲಾಗ್ ಔಟ್</string>
+</resources>
