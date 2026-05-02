@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Profile"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <ImageView
+            android:id="@+id/profileImageView"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@android:drawable/ic_menu_gallery"
+            android:layout_marginBottom="20dp"
+            android:contentDescription="Profile Picture" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:id="@+id/nameInput"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="text"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edit_text_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:id="@+id/emailInput"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edit_text_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:id="@+id/phoneInput"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edit_text_bg" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:id="@+id/addressInput"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="textMultiLine"
+            android:padding="10dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/edit_text_bg" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/editButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Edit"
+                android:layout_marginEnd="10dp" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Save"
+                android:visibility="gone"
+                android:layout_marginEnd="10dp" />
+
+            <Button
+                android:id="@+id/cancelButton"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:text="Cancel"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
